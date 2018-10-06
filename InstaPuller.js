@@ -10,5 +10,7 @@ let client = new JSO({
     redirect_uri: "http://localhost:8080/" // The URL where you is redirected back, and where you perform run the callback() function.
     //authorization: "https://api.instagram.com/oauth/authorize/?client_id=CLIENT-ID&redirect_uri=REDIRECT-URI&response_type=code",
     //scopes: { request: ["https://www.googleapis.com/auth/userinfo.profile"]}
-})
+});
 
+let f = new Fetcher(client);
+let url = 'https://api.instagram.com/v1/tags/nofilter/media/recent?access_token=47ce210662294ff2a6ac25b41378cc01';
