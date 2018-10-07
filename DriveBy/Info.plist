@@ -54,9 +54,6 @@
 		<key>UIBackgroundModes</key>
 		<key>NSLocationAlwaysUsageDescription</key>
 		<string>Your location is required to show your location on the map.</string>
-		<key>NSLocationWhenInUseUsageDescription</key>
-		<string>Your location is required to show your location on the map.</string>
-		<array>
 			<string>location</string>
 			<string>fetch</string>
 		</array>
