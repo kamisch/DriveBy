@@ -1,5 +1,4 @@
 ﻿using UIKit;
-using Xamarin.Forms.Maps;
 using DriveBy;
 //using DriveBy.MapStuff;
 

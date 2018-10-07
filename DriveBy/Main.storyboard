@@ -21,7 +21,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" customColorSpace="sRGB" colorSpace="calibratedRGB" red="1" green="0.50196078431372548" blue="0.23921568627450981" alpha="1"/>
                         <subviews>
-                            <mapView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" mapType="standard" id="197" translatesAutoresizingMaskIntoConstraints="NO" fixedFrame="YES">
+                            <mapView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" mapType="standard" id="197" translatesAutoresizingMaskIntoConstraints="NO" fixedFrame="YES" showsUserLocation="YES">
                                 <rect key="frame" x="0.0" y="170" width="375" height="309"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </mapView>
