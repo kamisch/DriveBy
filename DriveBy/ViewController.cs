@@ -1,7 +1,10 @@
 ﻿using System;
+using System.Data;
+using System.IO;
+using System.Net;
+using System.Windows.Input;
 
 using UIKit;
-using Xamarin.Forms.Maps;
 
 namespace DriveBy
 {
@@ -28,9 +31,9 @@ namespace DriveBy
             
         }
         
-        private void SearchBar_OnTextChanged(object sender, System.Windows.Forms.KeyEventArgs e)
+        private void SearchBar_OnTextChanged(object sender, KeyEventArgs e)
         {
-            if (e.KeyCode == Keys.Enter)
+            if (e.Key == Key.Enter)
             {
                 
             }
@@ -40,7 +43,7 @@ namespace DriveBy
            //RestaurantMap
         }
 
-        private double[] adressToLatLon(string address)
+        private double[] addressToLatLon(string address)
         {
             var locationService = new GoogleLocationService();
             var point = locationService.GetLatLongFromAddress(address);
@@ -50,6 +53,7 @@ namespace DriveBy
             
             return [latitude, longitude];
         }
+        
         
         
     }
