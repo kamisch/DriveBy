@@ -17,11 +17,29 @@ namespace DriveBy
         [GeneratedCode ("iOS Designer", "1.0")]
         UIKit.UISearchBar DestinationBar { get; set; }
 
+        [Outlet]
+        [GeneratedCode ("iOS Designer", "1.0")]
+        MapKit.MKMapView RestaurantMap { get; set; }
+
+        [Outlet]
+        [GeneratedCode ("iOS Designer", "1.0")]
+        UIKit.UIScrollView ResultList { get; set; }
+
         void ReleaseDesignerOutlets ()
         {
             if (DestinationBar != null) {
                 DestinationBar.Dispose ();
                 DestinationBar = null;
+            }
+
+            if (RestaurantMap != null) {
+                RestaurantMap.Dispose ();
+                RestaurantMap = null;
+            }
+
+            if (ResultList != null) {
+                ResultList.Dispose ();
+                ResultList = null;
             }
         }
     }

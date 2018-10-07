@@ -14,6 +14,7 @@ namespace DriveBy
         public override void ViewDidLoad()
         {
             base.ViewDidLoad();
+            
             // Perform any additional setup after loading the view, typically from a nib.
         }
 
@@ -22,5 +23,14 @@ namespace DriveBy
             base.DidReceiveMemoryWarning();
             // Release any cached data, images, etc that aren't in use.
         }
+        
+        private void SearchBar_OnTextChanged(object sender, UIReturnKeyType e)
+        {
+           //create destination
+           //after destination, returns array of Locations
+        }
     }
 }
+
+
+

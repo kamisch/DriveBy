@@ -1,13 +1,13 @@
 ﻿using System;
 using UIKit;
 using Xamarin.Forms.Maps;
-
+using DriveBy.MapStuff;
 
 namespace DriveBy
 {
-    public class MapStuff
+    public class Maps
     {
-        public MapStuff()
+        public Maps()
         {
             
         }
@@ -17,7 +17,7 @@ namespace DriveBy
         
         }
         
-        public void LocationToPinArray()
+        public void LocationToPinArray(MapData mapData)
         {
             Pin pin = new Pin (){
             Position = new Position (37, -122),
@@ -27,7 +27,7 @@ namespace DriveBy
             
         }
         
-        public static void AddressToLatLong()
+        public static void AddressToLatLong(MapData[] mapData)
         {
             var address = "Stavanger, Norway";
 
