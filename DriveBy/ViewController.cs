@@ -1,17 +1,13 @@
 ﻿using System;
 
 using UIKit;
+using Xamarin.Forms.Maps;
 
 namespace DriveBy
 {
  
    public partial class ViewController : UIViewController
     {
-
-        protected Map getMap()
-        {
-            return RestaurantMap;
-        }
         
         protected ViewController(IntPtr handle) : base(handle)
         {

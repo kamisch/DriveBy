@@ -1,12 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="7c22e038-940c-4714-ad5f-80f7fdad344e" name="Default Changelist" comment="">
+    <list default="true" id="7c22e038-940c-4714-ad5f-80f7fdad344e" name="Default Changelist" comment="edit folder">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.DriveBy/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.DriveBy/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/DriveBy.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/DriveBy.csproj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Main.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Main.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MapThings/EnableLocation.cs" beforeDir="false" afterPath="$PROJECT_DIR$/MapThings/EnableLocation.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MapThings/MapData.cs" beforeDir="false" afterPath="$PROJECT_DIR$/MapThings/MapData.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ViewController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/ViewController.cs" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -22,34 +19,41 @@
           <entry key="project.closed" value="3" />
           <entry key="project.open.time.13" value="1" />
           <entry key="project.open.time.15" value="1" />
+          <entry key="project.open.time.22" value="1" />
           <entry key="project.open.time.5" value="1" />
-          <entry key="project.opened" value="3" />
+          <entry key="project.opened" value="4" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="cs" value="5" />
           <entry key="csproj" value="1" />
+          <entry key="targets" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="C#" value="5" />
           <entry key="Csproj" value="1" />
+          <entry key="MsBuild targets file" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="cs" value="243" />
+          <entry key="cs" value="253" />
+          <entry key="targets" value="1" />
           <entry key="txt" value="13" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="C#" value="243" />
+          <entry key="C#" value="253" />
+          <entry key="MsBuild targets file" value="1" />
           <entry key="PLAIN_TEXT" value="13" />
         </counts>
       </usages-collector>
+      <usages-collector id="statistics.vcs.git.usages" />
+      <usages-collector id="statistics.js.language.service.starts" />
     </session>
   </component>
   <component name="FileEditorManager">
@@ -59,17 +63,17 @@
           <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/MapThings/EnableLocation.cs">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="60">
               <caret line="4" column="19" selection-start-line="4" selection-start-column="19" selection-end-line="4" selection-end-column="19" />
               <folding>
-                <marker date="1538887977139" expanded="true" signature="6:98" ph="..." />
-                <marker date="1538887977139" expanded="true" signature="127:743" ph="{...}" />
-                <marker date="1538887977139" expanded="true" signature="161:741" ph="{...}" />
-                <marker date="1538887977139" expanded="true" signature="206:735" ph="{...}" />
-                <marker date="1538887977139" expanded="true" signature="514:709" ph="/* map.AddAnnotations (new MKPointAnnotation (){ ... */" />
+                <marker date="1538894632308" expanded="true" signature="6:98" ph="..." />
+                <marker date="1538894632308" expanded="true" signature="127:829" ph="{...}" />
+                <marker date="1538894632308" expanded="true" signature="161:827" ph="{...}" />
+                <marker date="1538894632308" expanded="true" signature="554:821" ph="{...}" />
+                <marker date="1538894632308" expanded="true" signature="600:795" ph="/* map.AddAnnotations (new MKPointAnnotation (){ ... */" />
               </folding>
             </state>
           </provider>
@@ -78,22 +82,17 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/MapThings/MapData.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="270">
-              <caret line="18" column="26" selection-start-line="18" selection-start-column="26" selection-end-line="18" selection-end-column="26" />
-              <folding>
-                <marker date="1538887811294" expanded="true" signature="42:607" ph="{...}" />
-                <marker date="1538887811294" expanded="true" signature="69:605" ph="{...}" />
-                <marker date="1538887811294" expanded="true" signature="411:599" ph="{...}" />
-              </folding>
+            <state relative-caret-position="315">
+              <caret line="21" column="1" selection-start-line="21" selection-start-column="1" selection-end-line="21" selection-end-column="1" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/MapThings/Maps.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-2">
-              <caret line="5" column="27" selection-start-line="5" selection-start-column="27" selection-end-line="5" selection-end-column="27" />
+            <state relative-caret-position="159">
+              <caret line="28" column="13" selection-start-line="28" selection-start-column="13" selection-end-line="28" selection-end-column="13" />
             </state>
           </provider>
         </entry>
@@ -101,17 +100,17 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/ViewController.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="405">
-              <caret line="29" column="35" selection-start-line="29" selection-start-column="35" selection-end-line="29" selection-end-column="35" />
+            <state relative-caret-position="90">
+              <caret line="6" column="1" selection-start-line="6" selection-start-column="1" selection-end-line="6" selection-end-column="1" />
               <folding>
-                <marker date="1538887754385" expanded="false" signature="6:27" ph="..." />
-                <marker date="1538887754385" expanded="true" signature="46:952" ph="{...}" />
-                <marker date="1538887754385" expanded="true" signature="108:950" ph="{...}" />
-                <marker date="1538887754385" expanded="true" signature="186:283" ph="{...}" />
-                <marker date="1538887754385" expanded="true" signature="327:482" ph="{...}" />
-                <marker date="1538887754385" expanded="true" signature="538:687" ph="{...}" />
-                <marker date="1538887754385" expanded="true" signature="775:944" ph="{...}" />
-                <marker date="1538887754385" expanded="true" signature="797:876" ph="/* create destination ... */" />
+                <marker date="1538894686707" expanded="true" signature="6:53" ph="..." />
+                <marker date="1538894686707" expanded="true" signature="72:978" ph="{...}" />
+                <marker date="1538894686707" expanded="true" signature="134:976" ph="{...}" />
+                <marker date="1538894686707" expanded="true" signature="212:309" ph="{...}" />
+                <marker date="1538894686707" expanded="true" signature="353:508" ph="{...}" />
+                <marker date="1538894686707" expanded="true" signature="564:713" ph="{...}" />
+                <marker date="1538894686707" expanded="true" signature="801:970" ph="{...}" />
+                <marker date="1538894686707" expanded="true" signature="823:902" ph="/* create destination ... */" />
               </folding>
             </state>
           </provider>
@@ -132,11 +131,11 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/MapThings/Maps.cs" />
-        <option value="$PROJECT_DIR$/ViewController.cs" />
         <option value="$PROJECT_DIR$/MapThings/MapData.cs" />
         <option value="$PROJECT_DIR$/Main.cs" />
         <option value="$PROJECT_DIR$/MapThings/EnableLocation.cs" />
+        <option value="$PROJECT_DIR$/MapThings/Maps.cs" />
+        <option value="$PROJECT_DIR$/ViewController.cs" />
       </list>
     </option>
   </component>
@@ -176,7 +175,124 @@
   <component name="PropertiesComponent">
     <property name="Rider.DefaultBreakpoints.AreToggled" value="true" />
     <property name="Rider.ProjectViewActivator.IsNotFirstRun" value="true" />
+    <property name="RiderNuGetCacheManager.AutoClear.global-packages" value="2" />
+    <property name="RiderNuGetCacheManager.AutoClear.http-cache" value="2" />
+    <property name="RiderNuGetCacheManager.AutoClear.packages-cache" value="2" />
+    <property name="RiderNuGetCacheManager.AutoClear.temp" value="1" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="settings.editor.selected.configurable" value="XamarinSettingsPageId" />
+  </component>
+  <component name="RestoreUpdateTree" date="Moments ago" ActionInfo="_Update">
+    <UpdatedFiles>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Updated from server" />
+        <option name="myStatusName" value="Changed on server" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="CHANGED_ON_SERVER" />
+        <FILE-GROUP>
+          <option name="myUpdateName" value="Updated" />
+          <option name="myStatusName" value="Changed" />
+          <option name="mySupportsDeletion" value="false" />
+          <option name="myCanBeAbsent" value="false" />
+          <option name="myId" value="UPDATED" />
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/Info.plist</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/MapThings/EnableLocation.cs</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/ViewController.cs</PATH>
+        </FILE-GROUP>
+        <FILE-GROUP>
+          <option name="myUpdateName" value="Created" />
+          <option name="myStatusName" value="Created" />
+          <option name="mySupportsDeletion" value="false" />
+          <option name="myCanBeAbsent" value="false" />
+          <option name="myId" value="CREATED" />
+        </FILE-GROUP>
+        <FILE-GROUP>
+          <option name="myUpdateName" value="Deleted" />
+          <option name="myStatusName" value="Deleted" />
+          <option name="mySupportsDeletion" value="false" />
+          <option name="myCanBeAbsent" value="true" />
+          <option name="myId" value="REMOVED_FROM_REPOSITORY" />
+        </FILE-GROUP>
+        <FILE-GROUP>
+          <option name="myUpdateName" value="Restored" />
+          <option name="myStatusName" value="Will be restored" />
+          <option name="mySupportsDeletion" value="false" />
+          <option name="myCanBeAbsent" value="false" />
+          <option name="myId" value="RESTORED" />
+        </FILE-GROUP>
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Modified" />
+        <option name="myStatusName" value="Modified" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="MODIFIED" />
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Skipped" />
+        <option name="myStatusName" value="Skipped" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="SKIPPED" />
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Merged with conflicts" />
+        <option name="myStatusName" value="Will be merged with conflicts" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="MERGED_WITH_CONFLICTS" />
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Merged with tree conflicts" />
+        <option name="myStatusName" value="Merged with tree conflicts" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="MERGED_WITH_TREE_CONFLICT" />
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Merged with property conflicts" />
+        <option name="myStatusName" value="Will be merged with property conflicts" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="MERGED_WITH_PROPERTY_CONFLICT" />
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Merged" />
+        <option name="myStatusName" value="Will be merged" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="MERGED" />
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Not in repository" />
+        <option name="myStatusName" value="Not in repository" />
+        <option name="mySupportsDeletion" value="true" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="UNKNOWN" />
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Locally added" />
+        <option name="myStatusName" value="Locally added" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="LOCALLY_ADDED" />
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Locally removed" />
+        <option name="myStatusName" value="Locally removed" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="LOCALLY_REMOVED" />
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Switched" />
+        <option name="myStatusName" value="Switched" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="SWITCHED" />
+      </FILE-GROUP>
+    </UpdatedFiles>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -192,7 +308,7 @@
   </component>
   <component name="RunManager">
     <configuration name="iOS Default" type="XamarinIOSProject" factoryName="Xamarin.iOS">
-      <option name="PROJECT_PATH" value="" />
+      <option name="PROJECT_PATH" value="$PROJECT_DIR$/DriveBy.csproj" />
       <option name="PROGRAM_PARAMETERS" value="" />
       <option name="DEFAULT_IPHONE_DEVICE" value="" />
       <option name="DEFAULT_IPHONE_SIMULATOR" value="" />
@@ -213,6 +329,7 @@
       <workItem from="1538879460207" duration="40000" />
       <workItem from="1538879744936" duration="241000" />
       <workItem from="1538887514653" duration="928000" />
+      <workItem from="1538894432525" duration="1311000" />
     </task>
     <task id="LOCAL-00001" summary="edit folder">
       <created>1538887666032</created>
@@ -225,7 +342,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1209000" />
+    <option name="totallyTimeSpent" value="2520000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -239,23 +356,24 @@
   <component name="ToolWindowManager">
     <frame x="20" y="22" width="1260" height="685" extended-state="0" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25779969" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.26190478" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Build" sideWeight="0.49835795" weight="0.32715008" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Run" order="2" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="NuGet" order="7" weight="0.32715008" />
+      <window_info active="true" anchor="bottom" id="TODO" order="6" sideWeight="0.49835795" visible="true" weight="0.32715008" />
+      <window_info anchor="bottom" id="NuGet" order="7" sideWeight="0.49917898" weight="0.32715008" />
       <window_info anchor="bottom" id="Docker" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="9" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" order="10" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Unit Tests" order="11" />
-      <window_info anchor="bottom" id="Terminal" order="12" />
-      <window_info anchor="bottom" id="Event Log" order="13" side_tool="true" />
+      <window_info anchor="bottom" id="Unit Tests" order="11" weight="0.3288364" />
+      <window_info anchor="bottom" id="Terminal" order="12" weight="0.3288364" />
+      <window_info anchor="bottom" id="Event Log" order="13" sideWeight="0.50164205" side_tool="true" visible="true" weight="0.32715008" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -286,55 +404,29 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/Main.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="17" column="12" selection-start-line="17" selection-start-column="12" selection-end-line="17" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/DriveBy.csproj">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/ViewController.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="405">
-          <caret line="29" column="35" selection-start-line="29" selection-start-column="35" selection-end-line="29" selection-end-column="35" />
+        <state relative-caret-position="90">
+          <caret line="6" column="1" selection-start-line="6" selection-start-column="1" selection-end-line="6" selection-end-column="1" />
           <folding>
-            <marker date="1538887754385" expanded="false" signature="6:27" ph="..." />
-            <marker date="1538887754385" expanded="true" signature="46:952" ph="{...}" />
-            <marker date="1538887754385" expanded="true" signature="108:950" ph="{...}" />
-            <marker date="1538887754385" expanded="true" signature="186:283" ph="{...}" />
-            <marker date="1538887754385" expanded="true" signature="327:482" ph="{...}" />
-            <marker date="1538887754385" expanded="true" signature="538:687" ph="{...}" />
-            <marker date="1538887754385" expanded="true" signature="775:944" ph="{...}" />
-            <marker date="1538887754385" expanded="true" signature="797:876" ph="/* create destination ... */" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/MapThings/Maps.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-2">
-          <caret line="5" column="27" selection-start-line="5" selection-start-column="27" selection-end-line="5" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/MapThings/MapData.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="18" column="26" selection-start-line="18" selection-start-column="26" selection-end-line="18" selection-end-column="26" />
-          <folding>
-            <marker date="1538887811294" expanded="true" signature="42:607" ph="{...}" />
-            <marker date="1538887811294" expanded="true" signature="69:605" ph="{...}" />
-            <marker date="1538887811294" expanded="true" signature="411:599" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Main.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="17" column="12" selection-start-line="17" selection-start-column="12" selection-end-line="17" selection-end-column="12" />
-          <folding>
-            <marker date="1538887887557" expanded="false" signature="6:27" ph="..." />
-            <marker date="1538887887557" expanded="true" signature="72:525" ph="{...}" />
-            <marker date="1538887887557" expanded="true" signature="103:523" ph="{...}" />
-            <marker date="1538887887557" expanded="true" signature="209:517" ph="{...}" />
-            <marker date="1538887887557" expanded="true" signature="248:367" ph="/* if you want to use a different Application Delegate class from &quot;AppDelegate&quot; ... */" />
+            <marker date="1538894686707" expanded="true" signature="6:53" ph="..." />
+            <marker date="1538894686707" expanded="true" signature="72:978" ph="{...}" />
+            <marker date="1538894686707" expanded="true" signature="134:976" ph="{...}" />
+            <marker date="1538894686707" expanded="true" signature="212:309" ph="{...}" />
+            <marker date="1538894686707" expanded="true" signature="353:508" ph="{...}" />
+            <marker date="1538894686707" expanded="true" signature="564:713" ph="{...}" />
+            <marker date="1538894686707" expanded="true" signature="801:970" ph="{...}" />
+            <marker date="1538894686707" expanded="true" signature="823:902" ph="/* create destination ... */" />
           </folding>
         </state>
       </provider>
@@ -344,12 +436,33 @@
         <state relative-caret-position="60">
           <caret line="4" column="19" selection-start-line="4" selection-start-column="19" selection-end-line="4" selection-end-column="19" />
           <folding>
-            <marker date="1538887977139" expanded="true" signature="6:98" ph="..." />
-            <marker date="1538887977139" expanded="true" signature="127:743" ph="{...}" />
-            <marker date="1538887977139" expanded="true" signature="161:741" ph="{...}" />
-            <marker date="1538887977139" expanded="true" signature="206:735" ph="{...}" />
-            <marker date="1538887977139" expanded="true" signature="514:709" ph="/* map.AddAnnotations (new MKPointAnnotation (){ ... */" />
+            <marker date="1538894632308" expanded="true" signature="6:98" ph="..." />
+            <marker date="1538894632308" expanded="true" signature="127:829" ph="{...}" />
+            <marker date="1538894632308" expanded="true" signature="161:827" ph="{...}" />
+            <marker date="1538894632308" expanded="true" signature="554:821" ph="{...}" />
+            <marker date="1538894632308" expanded="true" signature="600:795" ph="/* map.AddAnnotations (new MKPointAnnotation (){ ... */" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MapThings/MapData.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="21" column="1" selection-start-line="21" selection-start-column="1" selection-end-line="21" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///Library/Frameworks/Mono.framework/Versions/5.12.0/lib/mono/msbuild/15.0/bin/Microsoft.Common.CurrentVersion.targets">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MapThings/Maps.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="159">
+          <caret line="28" column="13" selection-start-line="28" selection-start-column="13" selection-end-line="28" selection-end-column="13" />
         </state>
       </provider>
     </entry>
