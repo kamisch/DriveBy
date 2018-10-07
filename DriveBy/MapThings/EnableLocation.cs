@@ -11,7 +11,7 @@ namespace DriveBy.MapStuff
         public EnableLocation(Map map)
         {
             CoreLocation.CLLocationManager locationManager = new CoreLocation.CLLocationManager();
-            locationManager.RequestWhenInUseAuthorization();
+           //  locationManager.RequestWhenInUseAuthorization();
             map.IsShowingUser = true;
             // add an annotation
             /*map.AddAnnotations (new MKPointAnnotation (){
