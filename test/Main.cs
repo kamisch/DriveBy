@@ -35,7 +35,7 @@ namespace test{
             List<MapData> restaurantsList = new List<MapData>();
             
             foreach (var b in results.Businesses) {
-                restaurantsList.add(new MapData(b.Location,b.Name,b.Rating))
+                restaurantsList.add(new MapData(b.Latitute,b.Longitude,b.Name,b.Rating))
                 /*Console.WriteLine("Name: " + b.Name);
                 Console.WriteLine("Location: " + b.Location);
                 Console.WriteLine("Distance: " + b.Distance);
