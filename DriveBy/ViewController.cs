@@ -32,13 +32,30 @@ namespace DriveBy
             
         }
         
-        private void SearchBar_OnTextChanged(object sender, UIReturnKeyType e)
+        private void SearchBar_OnTextChanged(object sender, System.Windows.Forms.KeyEventArgs e)
         {
-           //create destination
-           //after destination, returns array of Locations
+            if (e.KeyCode == Keys.Enter)
+            {
+                
+            }
+            
+            
            Console.Write("A");
            //RestaurantMap
         }
+
+        private double[] adressToLatLon(string address)
+        {
+            var locationService = new GoogleLocationService();
+            var point = locationService.GetLatLongFromAddress(address);
+
+            var latitude = point.Latitude;
+            var longitude = point.Longitude;
+            
+            return [latitude, longitude];
+        }
+        
+        
     }
 }
 

@@ -4,17 +4,18 @@ using Xamarin.Forms.Maps;
 using MapKit;
 using CoreLocation;
 
+
 namespace DriveBy.MapThings
 {
     public class EnableLocation
     {
         public EnableLocation()
         {
-//            ViewController vc = new ViewController();
-//            map = vc.getMap();
-//            CoreLocation.CLLocationManager locationManager = new CoreLocation.CLLocationManager();
-//            locationManager.RequestWhenInUseAuthorization();
-//            map.IsShowingUser = true;
+            ViewController vc = new ViewController();
+            map = vc.getMap();
+            CoreLocation.CLLocationManager locationManager = new CoreLocation.CLLocationManager();
+            locationManager.RequestWhenInUseAuthorization();
+            map.IsShowingUser = true;
             
             
             
