@@ -9,12 +9,17 @@ namespace DriveBy.MapThings
 {
     public class EnableLocation
     {
-        public EnableLocation(Map map)
+        public EnableLocation()
         {
-            ViewController vc = new ViewController();
-            CoreLocation.CLLocationManager locationManager = new CoreLocation.CLLocationManager();
-            locationManager.RequestWhenInUseAuthorization();
-            map.IsShowingUser = true;
+//            ViewController vc = new ViewController();
+//            map = vc.getMap();
+//            CoreLocation.CLLocationManager locationManager = new CoreLocation.CLLocationManager();
+//            locationManager.RequestWhenInUseAuthorization();
+//            map.IsShowingUser = true;
+            
+            
+            
+            
             // add an annotation
             /*map.AddAnnotations (new MKPointAnnotation (){
                 Title="MyAnnotation",
