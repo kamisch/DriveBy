@@ -1,6 +1,7 @@
 ﻿using UIKit;
 using Xamarin.Forms.Maps;
-
+using DriveBy;
+//using DriveBy.MapStuff;
 
 namespace DriveBy
 {
@@ -14,6 +15,7 @@ namespace DriveBy
             // you can specify it here.
             
             UIApplication.Main(args, null, "AppDelegate");
+            //EnableLocation loc=new EnableLocation();
         }
     }
 }

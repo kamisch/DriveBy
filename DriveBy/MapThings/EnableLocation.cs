@@ -1,7 +1,8 @@
 ﻿using System;
-using Xamarin.Essentials;
 using Plugin.Geolocator;
-using Xamarin.Forms.Map;
+using Xamarin.Forms.Maps;
+using MapKit;
+using CoreLocation;
 
 namespace DriveBy.MapStuff
 {
@@ -9,15 +10,14 @@ namespace DriveBy.MapStuff
     {
         public EnableLocation(Map map)
         {
-            CLLocationManager locationManager = new CLLocationManager();
+            CoreLocation.CLLocationManager locationManager = new CoreLocation.CLLocationManager();
             locationManager.RequestWhenInUseAuthorization();
-            map.ShowsUserLocation = true;
-            
+            map.IsShowingUser = true;
             // add an annotation
-            map.AddAnnotations (new MKPointAnnotation (){
+            /*map.AddAnnotations (new MKPointAnnotation (){
                 Title="MyAnnotation",
-                Coordinate = new CLLocationCoordinate2D (42.364260, -71.120824)
-            });
+                Coordinate = new CoreLocation.CLLocationCoordinate2D(42.364260, -71.120824)
+            });*/
         }
     }
 }
