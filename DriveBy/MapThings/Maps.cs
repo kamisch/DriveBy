@@ -3,39 +3,35 @@ using UIKit;
 using Xamarin.Forms.Maps;
 using DriveBy.MapStuff;
 
-namespace DriveBy
+namespace DriveBy.MapThings
 {
-    public class Maps
+    public static class Maps
     {
-        public Maps()
-        {
-            
-        }
         
-        public void LocationToPin()
-        {
-        
-        }
-        
-        public void LocationToPinArray(MapData mapData)
+        public static void LocationToPin(MapData mapDat,Map map)
         {
             Pin pin = new Pin (){
             Position = new Position (37, -122),
             Label = "Some Pin!"
             };
-            
-            
+            map.Pins.Add(pin);
         }
         
-        public static void AddressToLatLong(MapData[] mapData)
+        public static void LocationToPinArray(MapData[] mapData,Map map)
         {
-            var address = "Stavanger, Norway";
-
-            var locationService = new GoogleLocationService();
-            var point = locationService.GetLatLongFromAddress(address);
+            for (int i=0;i<mapData.Length;i++)
+            {
+                Pin pin = new Pin (){
+                Position = new Position (mapData[i].Latitude, mapData[i].Longitude),
+                Label = mapData[i].RestaurantName
+                };
+                map.Pins.Add(pin);
+            }
+        }
         
-            var latitude = point.Latitude;
-            var longitude = point.Longitude;
+        public static void AddressToLatLong()
+        {
+            
         }
     }
 }

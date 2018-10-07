@@ -28,6 +28,8 @@ namespace DriveBy
         {
            //create destination
            //after destination, returns array of Locations
+           Console.Write("A");
+           
         }
     }
 }

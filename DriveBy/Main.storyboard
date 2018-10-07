@@ -40,7 +40,7 @@
                     <connections>
                         <outlet property="DestinationBar" destination="198" id="name-outlet-198"/>
                         <outlet property="ResultList" destination="200" id="name-outlet-200"/>
-                        <outlet property="Map" destination="197" id="name-outlet-197"/>
+                        <outlet property="RestaurantMap" destination="197" id="name-outlet-197"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
