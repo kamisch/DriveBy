@@ -50,10 +50,6 @@
 	</array>
 	<key>UIStatusBarStyle</key>
 	<string>UIStatusBarStyleLightContent</string>
-	<key>NSLocationAlwaysUsageDescription</key>
-	<string>Your location is required to show your location on the map.</string>
-	<key>NSLocationWhenInUseUsageDescription</key>
-	<string>Your location is required to show your location on the map.</string>
 	<key>UIBackgroundModes</key>
 	<array>
 		<string>location</string>
