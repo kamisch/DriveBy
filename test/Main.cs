@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Linq;
 using System.Collections;
 using System.Collections.Generic;
 using System.Threading.Tasks;
@@ -27,14 +28,16 @@ namespace test{
         static async Task<IList<BusinessResponse>> search(Yelp.Api.Client client) {
             SearchResponse results = await client.SearchBusinessesAllAsync("cupcakes", 37.786882, -122.399972);
 
+            IList<BusinessResponse> filteredList = results.Businesses.Where(b => b.Rating > 3.0).ToList();
+
             foreach (var b in results.Businesses) {
-                Console.WriteLine(b.Name);
-                Console.WriteLine(b.Location);
-                Console.WriteLine(b.Distance);
-                Console.WriteLine("");
+                Console.WriteLine("Name: " + b.Name);
+                Console.WriteLine("Location: " + b.Location);
+                Console.WriteLine("Distance: " + b.Distance);
+                Console.WriteLine("Rating: " + b.Rating);
             }
 
-            return results.Businesses;
+            return filteredList;
         }
     }
 
