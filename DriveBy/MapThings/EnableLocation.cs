@@ -5,7 +5,7 @@ using MapKit;
 using CoreLocation;
 
 
-namespace DriveBy.MapStuff
+namespace DriveBy.MapThings
 {
     public class EnableLocation
     {

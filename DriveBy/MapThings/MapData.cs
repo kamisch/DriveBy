@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace DriveBy.MapStuff
+namespace DriveBy.MapThings
 {
     public class MapData
     {
