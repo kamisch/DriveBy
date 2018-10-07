@@ -51,13 +51,14 @@
 		</array>
 		<key>UIStatusBarStyle</key>
 		<string>UIStatusBarStyleLightContent</string>
-		<key>UIBackgroundModes</key>
-<<<<<<< HEAD
+		
 		<key>NSLocationAlwaysUsageDescription</key>
 		<string>Your location is required to show your location on the map.</string>
-=======
+		<key>NSLocationWhenInUseUsageDescription</key>
+		<string>Your location is required to show your location on the map.</string>
+		
+		<key>UIBackgroundModes</key>
 		<array>
->>>>>>> 4d71dff2fda7fa8cb0dd38e5a12e9fc36e21f68e
 			<string>location</string>
 			<string>fetch</string>
 		</array>
