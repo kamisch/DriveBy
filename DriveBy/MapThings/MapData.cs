@@ -10,11 +10,10 @@ namespace DriveBy.MapThings
         public string RestaurantName{get;set;}
 		public double Review{get;set;}
         
-        public MapData(double latitude,double longitude,string restaurantName,string restaurantType,double review)
+        public MapData(double latitude,double longitude,string restaurantName,double review)
         {
             Latitude=latitude;
             Longitude=longitude;
-            RestaurantType=restaurantType;
             RestaurantName=restaurantName;
 			Review=review;
         }

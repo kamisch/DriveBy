@@ -5,6 +5,8 @@ using System.Collections.Generic;
 using System.Threading.Tasks;
 using Yelp.Api;
 using Yelp.Api.Models;
+using DriveBy.MapThings;
+using System.Collections.Generics;
 
 namespace test{
     public class Application
@@ -25,16 +27,19 @@ namespace test{
             await search(client);
         }
 
-        static async Task<IList<BusinessResponse>> search(Yelp.Api.Client client) {
-            SearchResponse results = await client.SearchBusinessesAllAsync("cupcakes", 37.786882, -122.399972);
+        static async Task<IList<BusinessResponse>> search(Yelp.Api.Client client, double lat, double longi) {
+            SearchResponse results = await client.SearchBusinessesAllAsync("Restaurants", lat, longi);
 
             IList<BusinessResponse> filteredList = results.Businesses.Where(b => b.Rating > 3.0).ToList();
-
+            
+            List<MapData> restaurantsList = new List<MapData>();
+            
             foreach (var b in results.Businesses) {
-                Console.WriteLine("Name: " + b.Name);
+                restaurantsList.add(new MapData(b.Location,b.Name,b.Rating))
+                /*Console.WriteLine("Name: " + b.Name);
                 Console.WriteLine("Location: " + b.Location);
                 Console.WriteLine("Distance: " + b.Distance);
-                Console.WriteLine("Rating: " + b.Rating);
+                Console.WriteLine("Rating: " + b.Rating);*/
             }
 
             return filteredList;
