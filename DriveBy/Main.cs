@@ -15,6 +15,7 @@ namespace DriveBy
             
             UIApplication.Main(args, null, "AppDelegate");
             //EnableLocation loc=new EnableLocation();
+            
         }
     }
 }
