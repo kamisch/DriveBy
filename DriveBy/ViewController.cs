@@ -4,8 +4,10 @@ using UIKit;
 
 namespace DriveBy
 {
-    public partial class ViewController : UIViewController
+ 
+   public partial class ViewController : UIViewController
     {
+        
         protected ViewController(IntPtr handle) : base(handle)
         {
             // Note: this .ctor should not contain any initialization logic.
@@ -22,6 +24,7 @@ namespace DriveBy
         {
             base.DidReceiveMemoryWarning();
             // Release any cached data, images, etc that aren't in use.
+            
         }
         
         private void SearchBar_OnTextChanged(object sender, UIReturnKeyType e)

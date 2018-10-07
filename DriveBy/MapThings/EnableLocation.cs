@@ -4,14 +4,16 @@ using Xamarin.Forms.Maps;
 using MapKit;
 using CoreLocation;
 
+
 namespace DriveBy.MapStuff
 {
     public class EnableLocation
     {
         public EnableLocation(Map map)
         {
+            ViewController vc = new ViewController();
             CoreLocation.CLLocationManager locationManager = new CoreLocation.CLLocationManager();
-           //  locationManager.RequestWhenInUseAuthorization();
+            locationManager.RequestWhenInUseAuthorization();
             map.IsShowingUser = true;
             // add an annotation
             /*map.AddAnnotations (new MKPointAnnotation (){
